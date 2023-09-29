@@ -31,3 +31,31 @@
 .chamada__botao {
     width: 100%;
 }
+
+
+@media screen and (min-width:768px) {
+    .chamada__titulo{
+        max-width: 600px;
+    }
+}
+
+/* tem o print tb pra impressora */
+/* @media print and (min-width:610px) {
+    .chamada{
+        background-color: #F0F;
+    }
+} */
+
+
+@media screen and (min-width:1024px) {
+    .chamada{
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+        padding: 8.25rem;
+    }
+
+    .chamada__titulo{
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
